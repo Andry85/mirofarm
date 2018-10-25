@@ -2,10 +2,59 @@
     padding: 0;
 }
 
+.header-info {
+	width: 74.41%;
+    display: -webkit-box;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
+						
+}
+
+.header-callback {
+	width: 190px;
+	
+}
+.header-nav {
+	width: calc(100% - 190px);
+}
+
+
+.logo {
+	max-width: 308px;
+}
+
+.header-login  {
+	width: 272px;
+}
+.header-nav .navbar {
+	width: calc(100% - 272px);
+}
+
+.header-callback .select-city {
+	padding-right: 0px;
+	text-align: left;
+	line-height: 49px;
+	height: 51px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+.header .container-fluid > .row {
+	display: block;
+}
+
 @media screen and (max-width: 1600px) {
     .header .logo__link {
         width: 200px;
-    }
+    }	
+	.header-info { 
+		width: 82.41%;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -579,6 +628,12 @@ a.kombox-del-filter:hover {
             -ms-flex-pack: center;
                 justify-content: center;
     }
+	.logo {
+		max-width: inherit;
+	}
+	.header-info {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -593,6 +648,15 @@ a.kombox-del-filter:hover {
     .header-basket__link {
         width: 165px;
     }
+	.header-nav .navbar {
+		width: 100%;
+	}
+	.navbar-expand-lg .navbar-nav {
+		width: 100%;
+		-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+	}
 }
 
 .logo__link {
@@ -678,7 +742,28 @@ a.kombox-del-filter:hover {
     .nav-item {
         padding-left: 0;
     }
+	
 }
+
+@media screen and (max-width: 992px) {
+	.header-nav {
+		 width: 100%;
+	}
+	.header-callback {
+		 width: 100%;
+	}
+	.header-callback .select-city {
+		text-align: center;
+	}
+	.header-nav .navbar {
+		-webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+	}
+}
+
+
+
 @media screen and (max-width: 576px) {
     .header-basket {
         justify-content: center;
@@ -687,7 +772,7 @@ a.kombox-del-filter:hover {
 }
 
 .callback-phone {
-    padding: 28px 4px 15px 0;
+    padding: 28px 0px 15px 0;
     text-align: left;
     font-size: 12px;
 }
@@ -1112,6 +1197,13 @@ color: #555;
         text-align: center;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .header-nav-bottom .row {
+		display: flex;
+	}
+}
+
 @media screen and (max-width: 480px) {
     .bx-subscribe form {
         flex-direction: column;
@@ -1130,15 +1222,15 @@ color: #555;
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-.header-info {
-    display: -webkit-box;
-	display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-}
+
+
+
+
+ 
+
+
+
+
 .header-nav-top {
 	display: -webkit-box;
 	display: -webkit-flex;
