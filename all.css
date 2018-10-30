@@ -11,12 +11,12 @@
      -webkit-box-pack: start;
                     -ms-flex-pack: start;
                         justify-content: flex-start;
-						
+
 }
 
 .header-callback {
 	width: 190px;
-	
+
 }
 .header-nav {
 	width: calc(100% - 190px);
@@ -51,8 +51,8 @@
 @media screen and (max-width: 1600px) {
     .header .logo__link {
         width: 200px;
-    }	
-	.header-info { 
+    }
+	.header-info {
 		width: 82.41%;
 	}
 }
@@ -157,7 +157,7 @@ form.form-search button {
 .card-description-title__info .stock .day-prod {
  font-size: 11px;
      margin-right: 1px;
-} 
+}
 
 .card-description-title__info .stock .new-prod {
   font-size: 11px;
@@ -674,7 +674,7 @@ a.kombox-del-filter:hover {
         padding: 28px 10px 15px 15px;
         text-align: center;
         font-size: 12px;
-    }   
+    }
 }
 
 .callback-phone__link {
@@ -742,7 +742,7 @@ a.kombox-del-filter:hover {
     .nav-item {
         padding-left: 0;
     }
-	
+
 }
 
 @media screen and (max-width: 992px) {
@@ -999,7 +999,7 @@ a.kombox-del-filter:hover {
     padding: 20px 10px 20px 20px;
 }
 /* Описываем анимацию свойства opacity */
- 
+
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -1033,7 +1033,7 @@ a.kombox-del-filter:hover {
 	border-width: 1px 1px 1px 1px;
 	background: #f1f1f1;
 	border-radius: 3px 3px 0 0;*/
-        
+
     padding: 15px 30px;
     position: relative;
     margin-left: 12px;
@@ -1046,11 +1046,11 @@ a.kombox-del-filter:hover {
     font-size: 13px;
     font-weight: 100;
     width: 200px;
-    
+
 }
 
 /* Изменения стиля переключателей вкладок при наведении */
- 
+
 .tabs>label:hover {
 	   padding: 15px 30px;
     position: relative;
@@ -1085,10 +1085,10 @@ color: #555;
     box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
     background-color: #fff;
 }
-/* Убираем текст с переключателей 
+/* Убираем текст с переключателей
 * и оставляем иконки на малых экранах
 */
- 
+
 @media screen and (max-width: 680px) {
 	.tabs>label {
 		font-size: 0;
@@ -1098,7 +1098,7 @@ color: #555;
 		font-size: 18px;
 	}
 }
-/* Изменяем внутренние отступы 
+/* Изменяем внутренние отступы
 *  переключателей для малых экранов
 */
 @media screen and (max-width: 400px) {
@@ -1147,7 +1147,7 @@ color: #555;
 .header-nav-bottom .row {
 	display: block;
 }
- 
+
 
 @media screen and (max-width: 1700px) {
     .footer-nav__item {
@@ -1226,7 +1226,7 @@ color: #555;
 
 
 
- 
+
 
 
 
@@ -1245,4 +1245,150 @@ color: #555;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+}
+
+
+
+
+#vertical-multilevel-menu a.root-item {
+    color: #1c1c1c!important;
+    font-size: 14px!important;
+    font-family: 'GothamProBold'!important;
+    padding: 5px 0!important;
+    white-space: normal!important;
+    padding-left: 10px!important;
+    background: none!important;
+}
+
+#vertical-multilevel-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #4f4f4f;
+    font-weight: bold;
+    padding: 5px;
+    background: none;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+#vertical-multilevel-menu li a:hover {
+    background-color: none!important;
+}
+
+#vertical-multilevel-menu li .root-item li a {
+  background: none!important;
+      border: none!important;
+      margin-left: 30px;
+}
+
+#vertical-multilevel-menu li .root-item {
+      border: none!important;
+}
+
+#vertical-multilevel-menu a.root-item-selected {
+  color: #1c1c1c!important;
+  font-size: 14px!important;
+  font-family: 'GothamProBold'!important;
+  padding: 5px 0!important;
+  white-space: normal!important;
+  padding-left: 10px!important;
+  background: none!important;
+  border-bottom: 1px solid #fff;
+}
+
+.bx-input-group .bx-input-group .bx-form-control {
+  position: relative;
+margin-right: 20px;
+display: block;
+width: 250px;
+height: 43px;
+padding: 0 25px;
+font-size: 14px;
+line-height: 1.42857143;
+border: 1px solid #cbcbcb;
+border-radius: 30px;
+outline: none;
+box-shadow: none !important;
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.bx-subscribe .bx-input-group .bx-form-control {
+  position: relative;
+margin-right: 20px;
+display: block;
+width: 250px;
+height: 43px;
+font-size: 14px;
+line-height: 1.42857;
+box-shadow: none !important;
+padding: 0px 25px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(203, 203, 203);
+border-image: initial;
+border-radius: 30px;
+outline: none;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+float: left;
+}
+
+.bx-subscribe button.sender-btn {
+  cursor: pointer;
+  text-align: center;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 43, 119) !important;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  outline: 0px;
+  transition: width 5s linear 0s;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  padding: 12px;
+  margin-top: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.btn-subscribe:before {
+  display: none!important;
+}
+
+.bx-input-group .bx-form-control {
+  position: relative!important;
+    margin-right: 20px!important;
+    display: block!important;
+    width: 240px!important;
+    height: 43px!important;
+    font-size: 14px!important;
+    line-height: 1.42857!important;
+    box-shadow: none !important;
+    padding: 0px 25px!important;
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-color: rgb(203, 203, 203)!important;
+    border-image: initial!important;
+    border-radius: 30px!important;
+    outline: none!important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    background-color: #fff!important;
+}
+
+.btn-subscribe span {
+    display: block;
+    text-transform: none;
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: -6px;
 }
