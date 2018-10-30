@@ -3,7 +3,7 @@
 }
 
 .header-info {
-	width: 74.41%;
+	width: 73.41%;
     display: -webkit-box;
 	display: -webkit-flex;
     display: -ms-flexbox;
@@ -24,7 +24,8 @@
 
 
 .logo {
-	max-width: 308px;
+	width: 26.59%;
+  text-align: center;
 }
 
 .header-login  {
@@ -35,7 +36,7 @@
 }
 
 .header-callback .select-city {
-	padding-right: 0px;
+	padding-right: 5px;
 	text-align: left;
 	line-height: 49px;
 	height: 51px;
@@ -48,6 +49,13 @@
 	display: block;
 }
 
+.wrapGeoIpReaspekt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block!important;
+}
+
 @media screen and (max-width: 1600px) {
     .header .logo__link {
         width: 200px;
@@ -55,6 +63,9 @@
 	.header-info {
 		width: 82.41%;
 	}
+  .logo {
+  	width: 17.59%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -634,6 +645,9 @@ a.kombox-del-filter:hover {
 	.header-info {
 		width: 100%;
 	}
+  .logo {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
