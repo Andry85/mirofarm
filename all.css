@@ -23,7 +23,7 @@
 }
 
 
-.logo {
+  .header .logo {
 	width: 26.59%;
   text-align: center;
 }
@@ -63,13 +63,13 @@
 	.header-info {
 		width: 82.41%;
 	}
-  .logo {
+  .header .logo {
   	width: 17.59%;
   }
 }
 
 @media screen and (max-width: 1400px) {
-    .logo__link {
+    .header .logo__link {
         width: 170px;
     }
 }
@@ -639,14 +639,12 @@ a.kombox-del-filter:hover {
             -ms-flex-pack: center;
                 justify-content: center;
     }
-	.logo {
-		max-width: inherit;
-	}
 	.header-info {
 		width: 100%;
 	}
-  .logo {
+  .header .logo {
     width: 100%;
+    max-width: inherit;
   }
 }
 
